@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <h1>Vinyl cataloge</h1>
+    <div>This table provides a detailed overview of a vinyl record collection. Each row represents an individual vinyl, and the columns include key details about the record.</div>
+
+    <div class="delete-section">
+        <h2>Delete a Vinyl</h2>
+        <input type="text" id="deleteVinylId" placeholder="Enter Vinyl ID to delete">
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>TITLE</td>
+                <td>ARTIST</td>
+                <td>YEAR</td>
+                <td>GENRE</td>
+                <td>DESCRIPTION</td>
+                <td>VALUSE ($)</td>
+            </tr>
+        </thead>
+        <tbody id="tableForContent">
+        </tbody>
+    </table>
+
+    <script src="JavaScript.js"></script>
+
+</body>
+</html>
